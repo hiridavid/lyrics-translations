@@ -1,0 +1,26 @@
+.SPACE_UNDER{
+    margin-bottom: 6rem;
+}
+
+body{
+    background: radial-gradient(ellipse at top, var(--bs-warning), var(--bs-dark));
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+
+}
+
+a:hover{
+    color:var(--bs-warning-bg-subtle);
+}
+
+footer{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+header>a.card{
+    margin: 0.5rem
+}
